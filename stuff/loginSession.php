@@ -1,6 +1,6 @@
 <?php
 
-$user = "David";
+$user = "admin";
 $pass = "1234";
 
 session_start();
