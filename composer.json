@@ -1,6 +1,4 @@
 {
     "require": {
-        "dpujolsa/stuff/loginession": "1.0.0",
-        "dpujolsa/index.php": "1.0.0"
     }
 }
