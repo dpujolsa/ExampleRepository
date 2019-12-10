@@ -18,7 +18,7 @@ session_start();
         $_SESSION['login'] = 'administrador';
         echo 'Sesion de administrador creada';
         echo '<br><br><img src="imagenes/admin.png" />';
-        echo '<h1>Calculadora</h1>
+        echo '<h1>Hola Rossella</h1>
 		<form action="resultado.php" method="post">
 			<select name="operador">
 				<option value="suma">Suma</option>
