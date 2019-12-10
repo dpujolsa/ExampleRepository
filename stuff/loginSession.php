@@ -33,6 +33,15 @@ session_start();
 			<input type="reset" value="Borrar">
 			<input type="submit" value="Enviar">
 		</form>
+		<h1>Selecciona paisaje</h1>
+		<form action="paisaje.php" method="post">
+			<select name="paisaje">
+				<option value="Mar">Mar</option>
+				<option value="Montaña">Montaña</option>
+				<option value="Nada">Nada</option>
+			</select><br />
+			<input type="submit" value="Enviar">
+        </form>
 	</body>';
     } else{
         echo 'Usuario o contraseña incorrecto';
